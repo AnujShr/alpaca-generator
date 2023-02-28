@@ -5,7 +5,7 @@
       <div ref="alpaca" class="relative block max-w-lg mb-5">
         <img v-for="item in Object.keys(options)"
              :key="item"
-             :src="`/assets/${item}/${selected[item]}.png`"
+             :src="`alpaca-generator/assets/${item}/${selected[item]}.png`"
              class="absolute top-0 left-0 z-10"
              :class="{'relative' : item === 'backgrounds'}"
              :alt="item">
